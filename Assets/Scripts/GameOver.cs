@@ -12,11 +12,6 @@ public class GameOver : MonoBehaviour
         scoreText.text = "Score: " + Score.score.ToString();
     }
 
-    void Update()
-    {
-        
-    }
-
     public void ResetTheGame()
     {
         SceneManager.LoadScene(1);
