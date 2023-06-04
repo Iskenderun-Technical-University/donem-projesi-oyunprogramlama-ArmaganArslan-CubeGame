@@ -28,17 +28,6 @@ public class Ball : MonoBehaviour
             SceneManager.LoadScene(2);
         }
 
-        //if (transform.position.y <= 0.5f)
-        //{
-        //    isFall = true;
-        //}
-
-        //if (isFall == true)
-        //{
-        //    SceneManager.LoadScene(2);
-        //    return;
-        //}
-
         if (Input.GetMouseButtonDown(0))
         {
             if (direction.x == 0) 
