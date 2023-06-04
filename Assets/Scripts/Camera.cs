@@ -12,15 +12,7 @@ public class Camera : MonoBehaviour
     {
         diff = transform.position - ballPosition.position;
     }
-
-    //void Update()
-    //{
-    //    if (Ball.isFall == false)
-    //    {
-    //        transform.position = ballPosition.position + diff;
-    //    }
-    //}
-
+    
     void LateUpdate()
     {
         if (!Ball.isFall)
